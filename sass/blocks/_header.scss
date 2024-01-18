@@ -1,0 +1,256 @@
+.site-header {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.site-header__inner {
+    @include flex-starter ;
+    justify-content: space-between;
+
+
+    &::after {
+        content: '';
+        position: absolute;
+        background-image: url('');
+    }
+}
+.site-header__logo-link {
+    display: inline-block;
+
+   
+}
+.site-header__list {
+      @include list-starter ;
+      @include flex-starter ;
+      gap: 45px;
+      
+}
+.site-header__item {
+    position: relative;
+    width: 110px;
+
+    &:hover {
+        cursor: pointer;
+    }
+    
+}
+
+.text {
+    color: var(--Black, #000);
+
+/* Normal Text - Regular */
+font-family: Catamaran;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+}
+.sublist {
+    display: none;
+    position: absolute;
+    @include list-starter ;
+    border: 1px solid #FDFDFD;
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.64);
+}
+
+.list-open {
+    display: block;
+
+
+    
+}
+
+
+
+.sublink {
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 11px;
+
+    &:hover {
+        background-color: #f6f6f6;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-title {
+    width: 554.989px;
+height: 137.855px;
+flex-shrink: 0;
+color: var(--Black, #000);
+
+/* Heading 1 - Bold */
+font-family: Catamaran;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 72px; /* 120% */
+letter-spacing: 1.2px;
+}
+
+.main-text {
+    margin-top: 37px;
+    margin-bottom: 49px;
+    width: 487.941px;
+height: 58.494px;
+flex-shrink: 0;
+color: var(--black-shade-1, #3D3D3D);
+
+/* Medium Text - Regular */
+font-family: Catamaran;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.36px;
+
+&::before{
+    content: '';
+    position: absolute;
+    background-image: url("/images/011\ 1\ \(2\).svg");
+    background-size: 795px;
+    height: 1056px;
+    width: 795px;
+    background-repeat: no-repeat;
+    right:  calc(50% + -720px);
+    top: 200px;
+}
+
+&::after{
+    content: '';
+    position: absolute;
+    background-image: url("/images/Best\ Design\ Awards.svg");
+    background-size: 268px;
+    height: 268px;
+    width: 264px;
+    background-repeat: no-repeat;
+    right:  calc(50% + -300px);
+    top: 950px;
+}
+}
+
+.main {
+    padding-bottom: 460px;
+}
+
+.main-started {
+    width: 554px;
+    padding-top: 268px;
+
+    &::before{
+        content: '';
+        position: absolute;
+        background-image: url("/images/Ellipse\ 12\ \(1\).svg");
+        background-size: 218px;
+        height: 218px;
+        width: 218px;
+        background-repeat: no-repeat;
+        right:  calc(50% + -300px);
+        top: 550px;
+    }
+}
+
+.inputcha {
+    padding-top: 29px;
+    padding-bottom: 29px;
+    padding-left: 29px;
+    padding-right: 377px;
+    border-radius: 15px;
+    border: 1px solid #E0E0E0;
+    color: #858585;
+
+/* Small Text - Regular */
+font-family: Catamaran;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+letter-spacing: 0.3px;
+    
+}
+
+.main-little__text {
+    color: var(--black-shade-2, #858585);
+
+/* Small Text - Regular */
+font-family: Catamaran;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 166.667% */
+letter-spacing: 0.3px;
+margin-top: 16px;
+margin-bottom: 241px;
+
+
+&::after{
+    content: '';
+    position: absolute;
+    background-image: url("/images/Discover\ Now.svg");
+    background-size: 142px;
+    height: 62px;
+    width: 142px;
+    background-repeat: no-repeat;
+    left:  calc(50% + -200px);
+    top: 720px;
+}
+}
+
+.spancha {
+    color: var(--Primary, #D22238);
+
+/* Small Text - Semi Bold */
+font-family: Catamaran;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0.3px;
+
+}
+
+.header-started {
+    margin-top: 35px;
+}
+
+
+.header-started::after {
+    content: "";
+    background-image: url('../images/Best\ design-awards.svg');
+    background-size: 268px;
+    background-repeat: no-repeat;
+    width: 268px;
+    height: 229px;
+    position: absolute;
+    right:  calc(50% + -410px);
+    top: 800px;
+}
+
+.main-title::after {
+    content: "";
+    background-image: url('../images/Ellipse\ 12.svg');
+    background-size: 218px;
+    background-repeat: no-repeat;
+    width: 218px;
+    height: 218px;
+    position: absolute;
+    right:  calc(50% + -220px);
+    top: 400px;
+}
+

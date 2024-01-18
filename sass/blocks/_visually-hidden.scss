@@ -1,0 +1,27 @@
+.visually-hidden {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+}
+
+.page-vison__btn-two {
+    width: 144.556px;
+height: 51.615px;
+flex-shrink: 0;
+border-radius: 10px;
+background: var(--Primary, #D22238);
+color: #FFF;
+text-align: center;
+
+/* Small Text - Semi Bold */
+font-family: Catamaran;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px; /* 166.667% */
+letter-spacing: 0.3px;
+border: none;
+}

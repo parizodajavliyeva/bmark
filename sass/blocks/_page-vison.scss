@@ -1,0 +1,103 @@
+.page-vison__title {
+    color: var(--Black, #000);
+text-align: center;
+
+/* Heading 2 - Bold */
+font-family: Catamaran;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 130.435% */
+letter-spacing: 0.92px;
+}
+
+.page-vison__text {
+    padding-top: 13px;
+    padding-bottom: 102px;
+    width: 660px;
+height: 51.773px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+
+/* Medium Text - Regular */
+font-family: Catamaran;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+letter-spacing: 0.36px;
+margin-left: 255px;
+}
+
+
+.page-vison__list {
+    list-style: none;
+    display: flex;
+    margin-bottom: 157px;
+    
+}
+
+.page-vison__item-title {
+    color: var(--Black, #000);
+
+/* Body Text 3 - Bold */
+font-family: Catamaran;
+font-size: 21px;
+font-style: normal;
+font-weight: 700;
+line-height: 33px; /* 157.143% */
+letter-spacing: 0.42px;
+}
+.page-vison__item-text {
+    width: 307.962px;
+height: 73.644px;
+flex-shrink: 0;
+color: var(--black-shade-2, #858585);
+
+/* Normal Text - Regular */
+font-family: Catamaran;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: 0.32px;
+margin-bottom: 43px;
+padding-top: 24px;
+}
+.page-vison__btn {
+    background-color: #FFF;
+    color: var(--black-shade-2, #858585);
+    text-align: center;
+    
+    /* Small Text - Semi Bold */
+    font-family: Catamaran;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px; /* 166.667% */
+    letter-spacing: 0.3px;
+    width: 144.556px;
+height: 51.615px;
+flex-shrink: 0;
+border-radius: 10px;
+border: 1px solid var(--black-shade-2, #858585);
+
+}
+
+.item__all-things {
+    margin-top: 43px;
+    margin-left: 31px;
+    margin-right: 31px;
+    margin-bottom: 40px;
+}
+
+.page-vison__item {
+    border-radius: 20px;
+    padding-right: 30px;
+}
+
+.page-vison__item-two {
+    background: #FFF;
+    box-shadow: 0px 18px 41px 0px rgba(240, 0, 0, 0.06);
+}
